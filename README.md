@@ -1,11 +1,11 @@
 # Engine.IO: the realtime engine for golang
 
-[![Build Status](https://github.com/zishang520/engine.io/workflows/Go/badge.svg?branch=main)](https://github.com/zishang520/engine.io/actions)
-[![GoDoc](https://pkg.go.dev/badge/github.com/zishang520/engine.io/v2?utm_source=godoc)](https://pkg.go.dev/github.com/zishang520/engine.io/v2)
+[![Build Status](https://github.com/Presslogic-Media/engine.io/workflows/Go/badge.svg?branch=main)](https://github.com/Presslogic-Media/engine.io/actions)
+[![GoDoc](https://pkg.go.dev/badge/github.com/Presslogic-Media/engine.io/v2?utm_source=godoc)](https://pkg.go.dev/github.com/Presslogic-Media/engine.io/v2)
 
 `Engine.IO` is the implementation of transport-based
 cross-browser/cross-device bi-directional communication layer for
-[Socket.IO for golang](http://github.com/zishang520/socket.io).
+[Socket.IO for golang](http://github.com/Presslogic-Media/socket.io).
 
 ## How to use
 
@@ -22,11 +22,11 @@ import (
     "strings"
     "syscall"
 
-    _types "github.com/zishang520/engine.io-go-parser/types"
-    "github.com/zishang520/engine.io/v2/config"
-    "github.com/zishang520/engine.io/v2/engine"
-    "github.com/zishang520/engine.io/v2/types"
-    "github.com/zishang520/engine.io/v2/utils"
+    _types "github.com/Presslogic-Media/engine.io-go-parser/types"
+    "github.com/Presslogic-Media/engine.io/v2/config"
+    "github.com/Presslogic-Media/engine.io/v2/engine"
+    "github.com/Presslogic-Media/engine.io/v2/types"
+    "github.com/Presslogic-Media/engine.io/v2/utils"
 )
 
 func main() {
@@ -81,10 +81,10 @@ import (
     "os/signal"
     "syscall"
 
-    "github.com/zishang520/engine.io/v2/config"
-    "github.com/zishang520/engine.io/v2/engine"
-    "github.com/zishang520/engine.io/v2/types"
-    "github.com/zishang520/engine.io/v2/utils"
+    "github.com/Presslogic-Media/engine.io/v2/config"
+    "github.com/Presslogic-Media/engine.io/v2/engine"
+    "github.com/Presslogic-Media/engine.io/v2/types"
+    "github.com/Presslogic-Media/engine.io/v2/utils"
 )
 
 func main() {
@@ -141,10 +141,10 @@ import (
     "syscall"
 
     "github.com/gorilla/websocket"
-    "github.com/zishang520/engine.io/v2/config"
-    "github.com/zishang520/engine.io/v2/engine"
-    "github.com/zishang520/engine.io/v2/types"
-    "github.com/zishang520/engine.io/v2/utils"
+    "github.com/Presslogic-Media/engine.io/v2/config"
+    "github.com/Presslogic-Media/engine.io/v2/engine"
+    "github.com/Presslogic-Media/engine.io/v2/types"
+    "github.com/Presslogic-Media/engine.io/v2/utils"
 )
 
 func main() {
@@ -210,10 +210,10 @@ import (
     "os/signal"
     "syscall"
 
-    "github.com/zishang520/engine.io/v2/config"
-    "github.com/zishang520/engine.io/v2/engine"
-    "github.com/zishang520/engine.io/v2/types"
-    "github.com/zishang520/engine.io/v2/utils"
+    "github.com/Presslogic-Media/engine.io/v2/config"
+    "github.com/Presslogic-Media/engine.io/v2/engine"
+    "github.com/Presslogic-Media/engine.io/v2/types"
+    "github.com/Presslogic-Media/engine.io/v2/utils"
 )
 
 func main() {
@@ -274,11 +274,11 @@ import (
     "syscall"
 
     "github.com/gorilla/websocket"
-    "github.com/zishang520/engine.io/v2/config"
-    "github.com/zishang520/engine.io/v2/engine"
-    "github.com/zishang520/engine.io/v2/types"
-    "github.com/zishang520/engine.io/v2/utils"
-    "github.com/zishang520/engine.io/v2/webtransport"
+    "github.com/Presslogic-Media/engine.io/v2/config"
+    "github.com/Presslogic-Media/engine.io/v2/engine"
+    "github.com/Presslogic-Media/engine.io/v2/types"
+    "github.com/Presslogic-Media/engine.io/v2/utils"
+    "github.com/Presslogic-Media/engine.io/v2/webtransport"
 )
 
 func main() {
@@ -368,7 +368,7 @@ For more information on the client refer to the
 
 #### Top-level
 
-These are exposed by `import "github.com/zishang520/engine.io/v2/engine"`:
+These are exposed by `import "github.com/Presslogic-Media/engine.io/v2/engine"`:
 
 ##### Events
 
@@ -401,9 +401,9 @@ These are exposed by `import "github.com/zishang520/engine.io/v2/engine"`:
   The following are identical ways to instantiate a server and then attach it.
 
 ```go
-import "github.com/zishang520/engine.io/v2/config"
-import "github.com/zishang520/engine.io/v2/engine"
-import "github.com/zishang520/engine.io/v2/types"
+import "github.com/Presslogic-Media/engine.io/v2/config"
+import "github.com/Presslogic-Media/engine.io/v2/engine"
+import "github.com/Presslogic-Media/engine.io/v2/types"
 
 var httpServer *types.HttpServer // previously created with `types.NewWebServer(nil);`.
 var eioServer engine.Server
@@ -439,8 +439,8 @@ eioServer = engine.New(httpServer, c)
     - **Returns** `engine.Server`
 
 ```go
-import "github.com/zishang520/engine.io/v2/engine"
-import "github.com/zishang520/engine.io/v2/config"
+import "github.com/Presslogic-Media/engine.io/v2/engine"
+import "github.com/Presslogic-Media/engine.io/v2/config"
 
 c := &config.ServerOptions{}
 c.SetPingTimeout(2000)
@@ -540,7 +540,7 @@ to a single process.
       - `SetCookie(*http.Cookie)`: configuration of the cookie that
         contains the client sid to send as part of handshake response
         headers. This cookie might be used for sticky-session. Defaults to not sending any cookie (`nil`).
-      - `SetCors(*types.Cors)`: the options that will be forwarded to the cors module. See [there](https://pkg.go.dev/github.com/zishang520/engine.io/v2/types#Cors) for all available options. Defaults to no CORS allowed.
+      - `SetCors(*types.Cors)`: the options that will be forwarded to the cors module. See [there](https://pkg.go.dev/github.com/Presslogic-Media/engine.io/v2/types#Cors) for all available options. Defaults to no CORS allowed.
       - `SetInitialPacket(io.Reader)`: an optional packet which will be concatenated to the handshake packet emitted by Engine.IO.
       - `SetAllowEIO3(bool)`: whether to support v3 Engine.IO clients (defaults to `false`)
 - `Close`

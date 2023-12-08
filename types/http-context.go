@@ -8,10 +8,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/zishang520/engine.io/v2/errors"
-	"github.com/zishang520/engine.io/v2/events"
-	"github.com/zishang520/engine.io/v2/utils"
-	"github.com/zishang520/engine.io/v2/webtransport"
+	"github.com/Presslogic-Media/engine.io/v2/errors"
+	"github.com/Presslogic-Media/engine.io/v2/events"
+	"github.com/Presslogic-Media/engine.io/v2/utils"
+	"github.com/Presslogic-Media/engine.io/v2/webtransport"
 )
 
 type HttpContext struct {

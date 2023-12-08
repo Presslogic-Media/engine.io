@@ -5,13 +5,13 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"github.com/zishang520/engine.io/v2/config"
-	"github.com/zishang520/engine.io/v2/errors"
-	"github.com/zishang520/engine.io/v2/events"
-	"github.com/zishang520/engine.io/v2/log"
-	"github.com/zishang520/engine.io/v2/transports"
-	"github.com/zishang520/engine.io/v2/types"
-	"github.com/zishang520/engine.io/v2/utils"
+	"github.com/Presslogic-Media/engine.io/v2/config"
+	"github.com/Presslogic-Media/engine.io/v2/errors"
+	"github.com/Presslogic-Media/engine.io/v2/events"
+	"github.com/Presslogic-Media/engine.io/v2/log"
+	"github.com/Presslogic-Media/engine.io/v2/transports"
+	"github.com/Presslogic-Media/engine.io/v2/types"
+	"github.com/Presslogic-Media/engine.io/v2/utils"
 )
 
 // Protocol errors mappings.
