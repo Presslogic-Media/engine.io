@@ -3,7 +3,7 @@ package engine
 import (
 	"net/http"
 
-	"github.com/zishang520/engine.io/v2/types"
+	"github.com/Presslogic-Media/engine.io/v2/types"
 )
 
 const Protocol = 4
