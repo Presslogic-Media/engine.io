@@ -1,4 +1,4 @@
-module github.com/zishang520/engine.io/v2
+module github.com/Presslogic-Media/engine.io/v2
 
 go 1.21
 
@@ -9,7 +9,7 @@ require (
 	github.com/quic-go/quic-go v0.40.0
 	github.com/quic-go/webtransport-go v0.6.0
 	github.com/vmihailenco/msgpack/v5 v5.4.1
-	github.com/zishang520/engine.io-go-parser v1.2.3
+	github.com/Presslogic-Media/engine.io-go-parser latest
 )
 
 require (
