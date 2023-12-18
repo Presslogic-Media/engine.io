@@ -7,13 +7,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Presslogic-Media/engine.io-go-parser/packet"
-	_types "github.com/Presslogic-Media/engine.io-go-parser/types"
 	"github.com/Presslogic-Media/engine.io/v2/events"
 	"github.com/Presslogic-Media/engine.io/v2/log"
 	"github.com/Presslogic-Media/engine.io/v2/transports"
 	"github.com/Presslogic-Media/engine.io/v2/types"
 	"github.com/Presslogic-Media/engine.io/v2/utils"
+	"github.com/zishang520/engine.io-go-parser/packet"
+	_types "github.com/zishang520/engine.io-go-parser/types"
 )
 
 var socket_log = log.NewLog("engine:socket")

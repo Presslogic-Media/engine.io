@@ -22,7 +22,11 @@ import (
     "strings"
     "syscall"
 
+<<<<<<< HEAD
     _types "github.com/Presslogic-Media/engine.io-go-parser/types"
+=======
+    _types "github.com/zishang520/engine.io-go-parser/types"
+>>>>>>> v2
     "github.com/Presslogic-Media/engine.io/v2/config"
     "github.com/Presslogic-Media/engine.io/v2/engine"
     "github.com/Presslogic-Media/engine.io/v2/types"

@@ -3,12 +3,6 @@ package engine
 import (
 	"context"
 	"encoding/json"
-	"io"
-	"net/http"
-
-	"github.com/Presslogic-Media/engine.io-go-parser/packet"
-	"github.com/Presslogic-Media/engine.io-go-parser/parser"
-	_types "github.com/Presslogic-Media/engine.io-go-parser/types"
 	"github.com/Presslogic-Media/engine.io/v2/config"
 	"github.com/Presslogic-Media/engine.io/v2/errors"
 	"github.com/Presslogic-Media/engine.io/v2/events"
@@ -17,6 +11,12 @@ import (
 	"github.com/Presslogic-Media/engine.io/v2/utils"
 	webtrans "github.com/Presslogic-Media/engine.io/v2/webtransport"
 	"github.com/gorilla/websocket"
+	"github.com/quic-go/webtransport-go"
+	"github.com/zishang520/engine.io-go-parser/packet"
+	"github.com/zishang520/engine.io-go-parser/parser"
+	_types "github.com/zishang520/engine.io-go-parser/types"
+	"io"
+	"net/http"
 )
 
 type server struct {
