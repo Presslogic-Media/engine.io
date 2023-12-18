@@ -12,6 +12,7 @@ import (
 	"github.com/Presslogic-Media/engine.io/v2/events"
 	"github.com/quic-go/quic-go/http3"
 	"github.com/quic-go/webtransport-go"
+	"github.com/quic-go/quic-go"
 )
 
 type HttpServer struct {
