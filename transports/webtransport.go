@@ -4,11 +4,11 @@ import (
 	"io"
 	"sync"
 
-	"github.com/Presslogic-Media/engine.io-go-parser/packet"
-	_types "github.com/Presslogic-Media/engine.io-go-parser/types"
 	"github.com/Presslogic-Media/engine.io/v2/log"
 	"github.com/Presslogic-Media/engine.io/v2/types"
 	"github.com/Presslogic-Media/engine.io/v2/webtransport"
+	"github.com/zishang520/engine.io-go-parser/packet"
+	_types "github.com/zishang520/engine.io-go-parser/types"
 )
 
 var (

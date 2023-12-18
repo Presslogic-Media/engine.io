@@ -1,11 +1,11 @@
 package transports
 
 import (
-	"github.com/Presslogic-Media/engine.io-go-parser/packet"
-	"github.com/Presslogic-Media/engine.io-go-parser/parser"
-	_types "github.com/Presslogic-Media/engine.io-go-parser/types"
 	"github.com/Presslogic-Media/engine.io/v2/events"
 	"github.com/Presslogic-Media/engine.io/v2/types"
+	"github.com/zishang520/engine.io-go-parser/packet"
+	"github.com/zishang520/engine.io-go-parser/parser"
+	_types "github.com/zishang520/engine.io-go-parser/types"
 )
 
 type (

@@ -1,15 +1,15 @@
 package engine
 
 import (
+	"github.com/quic-go/webtransport-go"
 	"io"
 	"net/http"
 
-	"github.com/quic-go/webtransport-go"
-	"github.com/Presslogic-Media/engine.io-go-parser/packet"
 	"github.com/Presslogic-Media/engine.io/v2/config"
 	"github.com/Presslogic-Media/engine.io/v2/events"
 	"github.com/Presslogic-Media/engine.io/v2/transports"
 	"github.com/Presslogic-Media/engine.io/v2/types"
+	"github.com/zishang520/engine.io-go-parser/packet"
 )
 
 type (
